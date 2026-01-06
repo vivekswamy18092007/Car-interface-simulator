@@ -64,9 +64,90 @@ Smooth, inertia-weighted gauges (no jitter)
 
 # Controls
 Key	Action:
-↑ Arrow	Throttle
-↓ Arrow	Brake
-Z	Clutch
-A	Downshift
-S	Upshift
-ESC	Quit
+
+↑ Arrow	= THROTTLE
+
+↓ Arrow =	BRAKE
+
+Z =	CLUTCH
+
+A	= DOWNSHIFT
+
+S =	UPSHIFT
+
+ESC =	QUIT
+
+
+# Launch Control
+Launch Control engages automatically when:
+
+Gear = 1
+
+Speed < 5 km/h
+
+Throttle fully pressed
+
+Clutch released
+
+
+# Expected Behaviour
+
+With the default supercar parameters:
+
+Violent low-speed acceleration
+
+Strong mid-range pull
+
+Noticeably slower acceleration past ~100 km/h
+
+Wheelspin during aggressive launches
+
+G-force spikes that correlate with what you feel, not just what you see
+
+
+# Requirements
+
+Python 3.9+
+
+pygame
+
+Install dependencies:
+
+pip install pygame
+
+
+Run the simulator:
+
+python race.py
+
+# Project Status
+
+This is an active learning and exploration project, built to understand:
+
+vehicle dynamics
+
+drivetrain behavior
+
+traction limits
+
+control systems (launch control)
+
+real-time simulation structure
+
+instrumentation and feedback
+
+# Possible Extensions
+
+Ideas for future work:
+
+Traction Control (TC)
+
+ABS-style braking limits
+
+Variable tire grip
+
+Engine inertia modeling
+
+Telemetry graphs (speed, RPM, G-force)
+
+Sound tied to RPM and load
