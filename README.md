@@ -7,7 +7,7 @@ This project models the longitudinal behavior of a high-performance supercar, fo
 
 It is not a racing game but rather a physics-first driving sandbox.
 
-✨ Features
+# Features
 
 # Core Vehicle Dynamics
 
