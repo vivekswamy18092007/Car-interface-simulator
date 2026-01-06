@@ -9,7 +9,7 @@ It is not a racing game but rather a physics-first driving sandbox.
 
 # Features
 
-# Core Vehicle Dynamics
+# 1. Core Vehicle Dynamics
 
 Engine RPM evolution with idle and redline
 
@@ -22,7 +22,7 @@ RPM-dependent torque curve
 Force-based longitudinal motion (Newtonian mechanics)
 
 
-# Real-World Constraints
+# 2. Real-World Constraints
 
 Traction-limited acceleration (no infinite grip)
 
@@ -35,7 +35,7 @@ Speed-dependent loss of acceleration
 Realistic high-speed behavior (acceleration tapers naturally)
 
 
-# Control Systems
+# 3. Control Systems
 
 Launch Control
 
@@ -48,7 +48,7 @@ Automatically disengages as speed increases
 Effective throttle modulation layered on top of raw input
 
 
-# Instrumentation & HUD
+# 4. Instrumentation & HUD
 
 Analog RPM gauge with redline arc
 
@@ -61,3 +61,12 @@ Wheelspin meter
 Longitudinal G-force readout
 
 Smooth, inertia-weighted gauges (no jitter)
+
+# Controls
+Key	Action:
+↑ Arrow	Throttle
+↓ Arrow	Brake
+Z	Clutch
+A	Downshift
+S	Upshift
+ESC	Quit
